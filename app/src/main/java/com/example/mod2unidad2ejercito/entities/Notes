@@ -1,0 +1,6 @@
+-> La app debe permitir al usuario ingresar coordenadas (latitud & longitud) para mover y abrir fuego con un vehículo
+
+-> El usuario debe, por lo tanto, elegir un vehículo (barco, portaavion, tanque, avion, submarino, jeep)
+
+-> La elección de un vehículo lleva asociada el id (nombre descriptivo) del vehículo (para luego mostrarlo por pantalla)
+   y un booleano esDestructivo = true/false que permite mostrar o no si el vehículo puede abrir fuego.
