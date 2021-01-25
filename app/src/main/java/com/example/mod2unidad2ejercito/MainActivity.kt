@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
     lateinit var textViewLong1: EditText
     lateinit var textViewLat2: EditText
     lateinit var textViewLong2: EditText
-    lateinit var radioButtonSelected: RadioButton
+    //lateinit var radioButtonSelected: RadioButton
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -44,12 +44,12 @@ class MainActivity : AppCompatActivity() {
         textViewLat2 = findViewById(R.id.editTextAbrirFuegoLatitud)
         textViewLong2 = findViewById(R.id.editTextAbrirFuegoLongitud)
 
-        if (radioButtonSelected.text == "AVIÓN" || radioButtonSelected.text == "TANQUE" || radioButtonSelected.text == "SUBMARINO") {
+        /*if (radioButtonSelected.text == "AVIÓN" || radioButtonSelected.text == "TANQUE" || radioButtonSelected.text == "SUBMARINO") {
             textViewAbrirFuego.text = "¡Abriendo fuego en las coordenadas!: \n" +
                     " ${textViewLat2.text} | ${textViewLong2.text}"
         } else {
             textViewAbrirFuego.text = "No se puede abrir fuego con el vehículo seleccionado"
-        }
+        }*/
 
         return textViewAbrirFuego
     }
